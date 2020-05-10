@@ -1,9 +1,20 @@
 body {
     margin: 0;
 }
-div {
-    background-color: #e4f9f5;
-}
 h1 {
     margin-top: 0;
+}
+
+.bottom-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.middle-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.top-container {
+    background-color: #e4f9f5;
 }
