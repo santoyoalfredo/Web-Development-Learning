@@ -1,13 +1,26 @@
+a {
+    color: #11999E;
+}
 body {
+    font-family: 'Merriweather', serif;
+    line-height: 2;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
 }
 h1 {
+    color: #66BFBF;
     font-family: 'Sacramento', cursive;
-    margin-top: 0;
+    font-size: 5.625rem;
+    margin: 50 auto 0 auto;
 }
-h2, h3 {
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+} 
+h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 span {
@@ -20,14 +33,10 @@ span {
     bottom: 300px;
 }
 .bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    
 }
 .middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+
 }
 .top-cloud {
     position: absolute;
