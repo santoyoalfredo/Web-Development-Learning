@@ -8,12 +8,32 @@ h1 {
     font-weight: 900;
     line-height: 1.5;
 }
-
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+p {
+    color: #8F8F8F;
+}
 .container-fluid {
     padding: 3% 15%;
 }
 .download-button {
     margin: 5% 3% 5% 0;
+}
+.feature-box {
+    padding: 5%;
+}
+.feature-icon {
+    color: #EF8172;
+    padding: 1rem;
+}
+.feature-icon:hover {
+    color: #FF4C68;
+}
+#features {
+    padding: 7% 15%;
+    text-align: center;
 }
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
