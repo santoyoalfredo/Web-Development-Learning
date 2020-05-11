@@ -35,8 +35,24 @@ span {
 .bottom-container {
     
 }
+.coding-image {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+.gamepad-image {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
 .middle-container {
 
+}
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
 }
 .top-cloud {
     position: absolute;
