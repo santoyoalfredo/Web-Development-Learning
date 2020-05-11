@@ -12,16 +12,25 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     margin: 50 auto 0 auto;
+    padding: 50px;
 }
 h2 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: bold;
 } 
 h3 {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+hr {
+    color: #EAF6F6;
+    border-style: none;
+    border-top: dotted;
+    border-width: 8px;
+    width: 5%;
 }
 span {
     text-decoration: underline;
@@ -33,12 +42,26 @@ span {
     bottom: 300px;
 }
 .bottom-container {
-    
+    margin-top: 75px;
+    padding-top: 25px;
+    background-color: #66BFBF;
 }
 .coding-image {
     float: left;
     margin-right: 30px;
     width: 25%;
+}
+.footer {
+    color: #EAF6F6;
+    font-size: 0.7rem;
+}
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
 }
 .gamepad-image {
     float: right;
@@ -46,7 +69,12 @@ span {
     width: 25%;
 }
 .middle-container {
-
+    margin-top: 100px;
+}
+.profile {
+    color: #40514e;
+    margin: auto;
+    width: 30%;
 }
 .skill-row {
     line-height: 2;
@@ -61,6 +89,24 @@ span {
 }
 .top-container {
     background-color: #e4f9f5;
+    line-height: 0;
     padding-top: 100px;
     position: relative;
 }
+.BUTTON_QAG {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 15px 6px 15px;
+    background-color: #11999E;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
