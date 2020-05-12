@@ -21,6 +21,9 @@ h3 {
 p {
     color: #8F8F8F;
 }
+.carousel-item {
+    padding: 7% 15%;
+}
 .container-fluid {
     padding: 3% 15%;
 }
@@ -78,7 +81,6 @@ p {
 #testimonials {
     background-color: #EF8172;
     color: #FFF;
-    padding: 7% 15%;
     text-align: center;
 }
 #title {
