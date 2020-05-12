@@ -25,7 +25,7 @@ p {
     padding: 7% 15%;
 }
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 .download-button {
     margin: 5% 3% 5% 0;
@@ -41,7 +41,9 @@ p {
     color: #FF4C68;
 }
 #features {
+    background-color: #FFF;
     padding: 7% 15%;
+    position: relative;
     text-align: center;
 }
 .navbar-brand {
@@ -69,6 +71,13 @@ p {
     margin: 20px 20px 50px;
     width: 15%;
 }
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
 .testimonial-image {
     border-radius: 100%;
     margin: 20px;
@@ -76,6 +85,8 @@ p {
 }
 .title-image {
     max-width: 60%;
+    position: absolute;
+    right: 30%;
     transform: rotate(25deg);
 }
 #testimonials {
