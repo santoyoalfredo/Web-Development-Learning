@@ -27,6 +27,12 @@ p {
 .container-fluid {
     padding: 3% 15% 7%;
 }
+#cta {
+    background-color: #FF4C68;
+    color: #FFF;
+    padding: 7% 15% 5%;
+    text-align: center;
+}
 .download-button {
     margin: 5% 3% 5% 0;
 }
@@ -44,6 +50,11 @@ p {
     background-color: #FFF;
     padding: 7% 15%;
     position: relative;
+    text-align: center;
+}
+#footer {
+    background-color: #FFF;
+    padding: 7% 15%;
     text-align: center;
 }
 .navbar-brand {
@@ -78,6 +89,9 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+.social-icon {
+    margin: 20px 10px;
+}
 .testimonial-image {
     border-radius: 100%;
     margin: 20px;
@@ -96,4 +110,14 @@ p {
 }
 #title {
     background-color: #FF4C68;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
