@@ -66,6 +66,19 @@ app.post("/", function(req, res){
 
 });
 
+app.post("/delete", function(req, res){
+  const itemToDelete = Item.findById(req.body.checkbox);
+  Item.findOneAndDelete(itemToDelete, function(err, item){
+    if(err) {
+      console.log(err);
+    }
+    else {
+      console.log("Item removed.");
+    }
+  });
+  res.redirect("/");
+})
+
 app.get("/work", function(req,res){
   res.render("list", {listTitle: "Work List", newListItems: workItems});
 });
