@@ -18,32 +18,31 @@ const articleSchema = new mongoose.Schema({
 
 const Article = mongoose.model("Article", articleSchema);
 
-app.get("/articles", function(req, res) {
-    Article.find(function(err, foundArticles) {
-        if(!err) {
+app.route("/articles")
+
+.get(function(req, res) {
+    Article.find(function (err, foundArticles) {
+        if (!err) {
             res.send(foundArticles);
         } else {
             res.send(err);
         }
     });
-});
+})
+.post(function (req, res) {
 
-app.post("/articles", function(req, res) {
-    
     const article = new Article({ title: req.body.title, content: req.body.content });
-    article.save(function(err) {
-        if(!err) {
+    article.save(function (err) {
+        if (!err) {
             res.send("Success.");
         } else {
             res.send(err);
         }
     });
 })
-
-app.delete("/articles", function(req, res) {
-
-    Article.deleteMany(function(err) {
-        if(!err) {
+.delete(function (req, res) {
+    Article.deleteMany(function (err) {
+        if (!err) {
             res.send("Success.");
         } else {
             res.send(err);
