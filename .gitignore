@@ -2,3 +2,4 @@
 */node_modules/*
 */package-lock.json
 Fruits Project/app.js
+auth-and-security/.env
